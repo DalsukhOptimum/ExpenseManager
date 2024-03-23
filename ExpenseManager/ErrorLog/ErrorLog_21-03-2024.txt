@@ -1,0 +1,121 @@
+------------------------------------------21-03-2024 10:32:59------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 10:34:26------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 10:41:35------------------------------------------
+AddExpenseBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 10:43:12------------------------------------------
+AddExpenseBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 10:45:21------------------------------------------
+AddExpenseBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 10:45:22------------------------------------------
+AddExpenseBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 10:45:22------------------------------------------
+UserReBL=>RegisterUSer=>ExceptionObject reference not set to an instance of an object.   at BL.AddExpenseBL.AddingExpense(Expense objEntity) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\BL\AddExpense.cs:line 31
+------------------------------------------21-03-2024 10:45:38------------------------------------------
+AddExpenseBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 10:49:54------------------------------------------
+AddExpenseBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 10:50:55------------------------------------------
+AddExpenseBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 10:51:23------------------------------------------
+AddExpenseBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 10:53:25------------------------------------------
+AddExpenseBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 11:11:06------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 14:46:03------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 14:48:47------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 14:49:27------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>ExceptionCannot find table 1.   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BL.MonthlyExpenseBL.ShowMontlyExpense(MonthlyExpenseEntity objEntity) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\BL\MonthlyExpense.cs:line 39
+------------------------------------------21-03-2024 14:51:58------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 15:04:09------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 15:23:10------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 15:23:14------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 15:23:36------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>ExceptionCannot find table 1.   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BL.MonthlyExpenseBL.ShowMontlyExpense(MonthlyExpenseEntity objEntity) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\BL\MonthlyExpense.cs:line 39
+------------------------------------------21-03-2024 15:24:15------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 15:26:05------------------------------------------
+UserReBL=>RegisterUSer=>ExceptionCannot find table 1.   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BL.UserReBL.RegisterUSer(UserEntity objEntity) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\BL\UserBL.cs:line 45
+------------------------------------------21-03-2024 15:26:11------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 15:58:17------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 15:59:41------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 16:31:59------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 16:43:08------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 16:43:24------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 16:45:39------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 16:46:46------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 16:49:20------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 16:49:30------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>ExceptionColumn 'ResponseMessage' does not belong to table Table1.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.MonthlyExpenseBL.ShowMontlyExpense(MonthlyExpenseEntity objEntity) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\BL\MonthlyExpense.cs:line 41
+------------------------------------------21-03-2024 16:49:57------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 16:52:08------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>ExceptionColumn 'ResponseMessage' does not belong to table Table1.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.MonthlyExpenseBL.ShowMontlyExpense(MonthlyExpenseEntity objEntity) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\BL\MonthlyExpense.cs:line 41
+------------------------------------------21-03-2024 16:52:17------------------------------------------
+MonthlyExpenseBL=>ShowMontlyExpense=>Started
+------------------------------------------21-03-2024 18:16:56------------------------------------------
+ShowAllExpenseBL=>showAllExpense=>Started
+------------------------------------------21-03-2024 18:17:17------------------------------------------
+ShowAllExpenseBL=>showAllExpense=>Started
+------------------------------------------21-03-2024 18:18:01------------------------------------------
+ShowAllExpenseBL=>showAllExpense=>Started
+------------------------------------------21-03-2024 18:22:43------------------------------------------
+ShowAllExpenseBL=>showAllExpense=>Started
+------------------------------------------21-03-2024 18:24:06------------------------------------------
+ShowAllExpenseBL=>ShowMontlyExpense=>ExceptionColumn 'ResponseMessage' does not belong to table Table1.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.ShowAllExpenseBL.showAllExpense(Expense objEntity)
+------------------------------------------21-03-2024 18:24:17------------------------------------------
+ShowAllExpenseBL=>showAllExpense=>Started
+------------------------------------------21-03-2024 18:26:02------------------------------------------
+ShowAllExpenseBL=>showAllExpense=>Started
+------------------------------------------21-03-2024 18:26:38------------------------------------------
+ShowAllExpenseBL=>showAllExpense=>Started
+------------------------------------------21-03-2024 18:27:19------------------------------------------
+ShowAllExpenseBL=>ShowMontlyExpense=>ExceptionColumn 'ID' does not belong to table Table.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.ShowAllExpenseBL.showAllExpense(Expense objEntity) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\BL\ShowAllExpenseBL.cs:line 39
+------------------------------------------21-03-2024 18:27:27------------------------------------------
+ShowAllExpenseBL=>showAllExpense=>Started
+------------------------------------------21-03-2024 18:28:29------------------------------------------
+ShowAllExpenseBL=>showAllExpense=>Started
+------------------------------------------21-03-2024 18:30:12------------------------------------------
+ShowAllExpenseBL=>ShowMontlyExpense=>ExceptionColumn 'ResponseMessage' does not belong to table Table1.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.ShowAllExpenseBL.showAllExpense(Expense objEntity) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\BL\ShowAllExpenseBL.cs:line 42
+------------------------------------------21-03-2024 18:30:14------------------------------------------
+ShowAllExpenseBL=>showAllExpense=>Started
+------------------------------------------21-03-2024 18:54:53------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 18:55:43------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 18:57:03------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 18:58:15------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------21-03-2024 18:59:05------------------------------------------
+UserReBL=>RegisterUSer=>Started

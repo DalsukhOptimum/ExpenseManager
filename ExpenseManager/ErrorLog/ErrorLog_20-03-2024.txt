@@ -1,0 +1,15 @@
+------------------------------------------20-03-2024 18:50:58------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------20-03-2024 18:50:58------------------------------------------
+UserReBL=>RegisterUSer=>ExceptionThe stored procedure 'UserSP' doesn't exist.   at System.Data.SqlClient.SqlCommand.DeriveParameters()
+   at System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   at Library.SqlHelperParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\Library\SqlHelper.cs:line 2468
+   at Library.SqlHelperParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\Library\SqlHelper.cs:line 2640
+   at Library.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\Library\SqlHelper.cs:line 2584
+   at Library.SqlHelperParameterCache.GetSpParameterSet(String connectionString, String spName) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\Library\SqlHelper.cs:line 2564
+   at Library.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\Library\SqlHelper.cs:line 516
+   at BL.UserReBL.RegisterUSer(UserEntity objEntity) in C:\Users\dalsu\OneDrive\Desktop\Intern\ExpenseManager\BL\UserBL.cs:line 42
+------------------------------------------20-03-2024 18:52:15------------------------------------------
+UserReBL=>RegisterUSer=>Started
+------------------------------------------20-03-2024 18:53:43------------------------------------------
+UserReBL=>RegisterUSer=>Started
